@@ -1,6 +1,14 @@
 @charset "UTF-8";
-html {
-    font-size: 10px;
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style-type:none;
+}
+ul,li{
+    padding:0;
+    margin:0
 }
 
 body{
@@ -19,23 +27,4 @@ body{
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-position: center 0;
-}
-.header-title{
-    margin-top: 1.9rem;
-    margin-left: 1rem;
-}
-.header-title img{
-    width: 21.5rem;
-    height:3.8rem ;
-    max-width: 100%;
-}
-
-.header-body{
-    margin-top: 3.5rem;
-}
-
-.header-body img{
-    width: 36.3rem;
-    height: 11.6rem;
-    max-width: 100%;
 }
