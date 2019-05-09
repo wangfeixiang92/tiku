@@ -26,5 +26,20 @@
 .content h2{
     margin-top: 3.506rem;
     text-align: center;
-    color:
+    color:#F6A13C;
+}
+.content p{
+    font-size: 0.346rem;
+    text-align: center;
+    font-weight: bold;
+    color: #666666;
+    margin-top: -0.2rem;
+}
+.close img{
+    width: 0.553rem;
+    height: 0.553rem;
+    position: absolute;
+    top:3.586rem;
+    left:8.186rem;
+    cursor: pointer;
 }
