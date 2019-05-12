@@ -31,9 +31,8 @@
     background-position: center 0;
     border-radius: 10px;
 }
-.margintopbottom{
+.margin{
     margin-top: 0.493rem;
-    margin-bottom: 0.493rem;
 }
 .header-question li span{
     font-size: 0.373rem;
@@ -44,7 +43,7 @@
     margin-right: 0.426rem;
 }
 
-.header-question .active{
+.header-question li:hover{
     background: url(../image/question-li-active.png);
     background-repeat: no-repeat;
     background-size: cover;
